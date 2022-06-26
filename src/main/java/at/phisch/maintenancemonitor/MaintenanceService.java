@@ -13,4 +13,7 @@ public class MaintenanceService {
         this.maintenance = maintenance;
     }
 
+    public Maintenance getMaintenance() {
+        return maintenance;
+    }
 }
