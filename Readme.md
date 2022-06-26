@@ -20,7 +20,7 @@ All monitors show the same content: a maximized website.
         <li>
             <p>Set state via post endpoint "/api/maintenanceMode"</p>
             <p>param maintenance: bool</p>
-            <p>param message: str (will be null if maintenance is true)</p>
+            <p>param message: str (will be null if maintenance is false)</p>
         <li>
             <p>Fetch Maintenance state via get endpoint ""/api/maintenanceMode"</p>
             <p>no params: return Json params: maintenace:bool, message: String</p>
