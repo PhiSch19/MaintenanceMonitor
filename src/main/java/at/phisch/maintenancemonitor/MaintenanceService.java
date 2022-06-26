@@ -7,6 +7,9 @@ public class MaintenanceService {
     private Maintenance maintenance = new Maintenance();
 
     public void setMaintenance(Maintenance maintenance) {
+        if(!maintenance.isMaintenance()) {
+            maintenance.setMessage(null);
+        }
         this.maintenance = maintenance;
     }
 
