@@ -1,4 +1,4 @@
-#Maintenance Monitor
+<h1>Maintenance Monitor</h1>
 <p>an Application to set Maintenance State of a Service and inform users about the current state via a Website</p>
 
 <div>
