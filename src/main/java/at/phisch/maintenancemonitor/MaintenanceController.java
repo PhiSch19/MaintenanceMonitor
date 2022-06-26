@@ -12,7 +12,7 @@ public class MaintenanceController {
 
     private MaintenanceService maintenanceService = new MaintenanceService();
 
-    @PostMapping
+    @PostMapping("/api/maintenanceMode")
     public void setMaintenance(Maintenance maintenance) {
         maintenanceService.setMaintenance(maintenance);
     }
